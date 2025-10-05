@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@zegocloud/zego-uikit-prebuilt": "^2.17.0",
-    "zego-server-assistant": "^1.3.0",
+    "zego-server-assistant-nodejs": "^1.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

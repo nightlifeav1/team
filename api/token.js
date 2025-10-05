@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     }
 
     // Generate a Token04 (server-side) and return a kitToken-compatible format
-    const { generateToken04 } = await import('zego-server-assistant');
+    const { generateToken04 } = await import('zego-server-assistant-nodejs');
     const effectiveTimeInSeconds = 3600;
     const payload = {
       room_id: roomID,
